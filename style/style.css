@@ -1,0 +1,1498 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: gilroy;
+  src: url(../font/Gilroy-Regular.ttf);
+}
+@media (min-width: 2561px) {
+  .wrap {
+    width: 100%;
+    height: 1440px;
+  }
+  .wrap .sec1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .textbox {
+    position: relative;
+    height: 20%;
+    width: 95%;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .wrap .sec1 .textbox h1 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .textbox h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main {
+    width: 45%;
+    height: 354px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main .img1 {
+    width: 380px;
+  }
+  .wrap .sec1 .tovar .main .textbox2 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .wrap .sec1 .tovar .main .textbox2 h2 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar .main .textbox2 p {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 30px;
+    color: #0071E3;
+  }
+  .wrap .sec1 .pricebox {
+    width: 28%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .two_buttons {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 {
+    width: 49%;
+    height: 100%;
+    background-color: #0071E3;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 {
+    width: 49%;
+    height: 100%;
+    background-color: #CFE7FF;
+    border-radius: 20px;
+    border: none;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover {
+    background-color: #CFE7FF;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover {
+    background-color: #0071E3;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .main_buttons {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .main_buttons button {
+    width: 97%;
+    height: 23%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #797979;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .wrap .sec1 .pricebox .main_buttons button p {
+    width: 90%;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p3 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p4 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button:hover {
+    width: 100%;
+    height: 25%;
+    background-color: #CFE7FF;
+    transition: 400ms;
+  }
+}
+@media (max-width: 2560px) {
+  .wrap {
+    width: 100%;
+    height: 1440px;
+  }
+  .wrap .sec1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .textbox {
+    position: relative;
+    height: 25%;
+    width: 95%;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .wrap .sec1 .textbox h1 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .textbox h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main {
+    width: 50%;
+    height: 354px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main .img1 {
+    width: 380px;
+  }
+  .wrap .sec1 .tovar .main .textbox2 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .wrap .sec1 .tovar .main .textbox2 h2 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar .main .textbox2 p {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 30px;
+    color: #0071E3;
+  }
+  .wrap .sec1 .pricebox {
+    width: 28%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .two_buttons {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 {
+    width: 49%;
+    height: 100%;
+    background-color: #0071E3;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 {
+    width: 49%;
+    height: 100%;
+    background-color: #CFE7FF;
+    border-radius: 20px;
+    border: none;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover {
+    background-color: #CFE7FF;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover {
+    background-color: #0071E3;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .main_buttons {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .main_buttons button {
+    width: 97%;
+    height: 23%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #797979;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .wrap .sec1 .pricebox .main_buttons button p {
+    width: 90%;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p3 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p4 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button:hover {
+    width: 100%;
+    height: 25%;
+    background-color: #CFE7FF;
+    transition: 400ms;
+  }
+}
+@media (max-width: 1660px) {
+  .wrap {
+    width: 100%;
+    height: 1440px;
+  }
+  .wrap .sec1 {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .textbox {
+    position: relative;
+    height: 20%;
+    width: 95%;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .wrap .sec1 .textbox h1 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .textbox h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main {
+    width: 55%;
+    height: 354px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main .img1 {
+    width: 380px;
+  }
+  .wrap .sec1 .tovar .main .textbox2 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .wrap .sec1 .tovar .main .textbox2 h2 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar .main .textbox2 p {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 30px;
+    color: #0071E3;
+  }
+  .wrap .sec1 .pricebox {
+    width: 28%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .two_buttons {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 {
+    width: 49%;
+    height: 100%;
+    background-color: #0071E3;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 {
+    width: 49%;
+    height: 100%;
+    background-color: #CFE7FF;
+    border-radius: 20px;
+    border: none;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover {
+    background-color: #CFE7FF;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover {
+    background-color: #0071E3;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .main_buttons {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .main_buttons button {
+    width: 97%;
+    height: 23%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #797979;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .wrap .sec1 .pricebox .main_buttons button p {
+    width: 90%;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p3 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p4 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button:hover {
+    width: 100%;
+    height: 25%;
+    background-color: #CFE7FF;
+    transition: 400ms;
+  }
+}
+@media (max-width: 1440px) {
+  .wrap {
+    width: 100%;
+    height: 1117px;
+  }
+  .wrap .sec1 {
+    width: 100%;
+    display: flex;
+    height: 1117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .textbox {
+    position: relative;
+    height: 22%;
+    width: 95%;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .wrap .sec1 .textbox h1 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .textbox h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main {
+    width: 55%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main .img1 {
+    width: 312px;
+  }
+  .wrap .sec1 .tovar .main .textbox2 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .wrap .sec1 .tovar .main .textbox2 h2 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar .main .textbox2 p {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0071E3;
+  }
+  .wrap .sec1 .pricebox {
+    width: 28%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .two_buttons {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 {
+    width: 49%;
+    height: 100%;
+    background-color: #0071E3;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 {
+    width: 49%;
+    height: 100%;
+    background-color: #CFE7FF;
+    border-radius: 20px;
+    border: none;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover {
+    background-color: #CFE7FF;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover {
+    background-color: #0071E3;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .main_buttons {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .main_buttons button {
+    width: 97%;
+    height: 23%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #797979;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .wrap .sec1 .pricebox .main_buttons button p {
+    width: 90%;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p3 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p4 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button:hover {
+    width: 100%;
+    height: 25%;
+    background-color: #CFE7FF;
+    transition: 400ms;
+  }
+}
+@media (max-width: 1280px) {
+  .wrap {
+    width: 100%;
+    height: 1117px;
+  }
+  .wrap .sec1 {
+    width: 100%;
+    display: flex;
+    height: 1117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .textbox {
+    position: relative;
+    height: 18%;
+    width: 95%;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .wrap .sec1 .textbox h1 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .textbox h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main {
+    width: 70%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main .img1 {
+    width: 312px;
+  }
+  .wrap .sec1 .tovar .main .textbox2 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .wrap .sec1 .tovar .main .textbox2 h2 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar .main .textbox2 p {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #0071E3;
+  }
+  .wrap .sec1 .pricebox {
+    width: 28%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .two_buttons {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 {
+    width: 49%;
+    height: 100%;
+    background-color: #0071E3;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 {
+    width: 49%;
+    height: 100%;
+    background-color: #CFE7FF;
+    border-radius: 20px;
+    border: none;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover {
+    background-color: #CFE7FF;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover {
+    background-color: #0071E3;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .main_buttons {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .main_buttons button {
+    width: 97%;
+    height: 23%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #797979;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .wrap .sec1 .pricebox .main_buttons button p {
+    width: 90%;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p3 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p4 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button:hover {
+    width: 100%;
+    height: 25%;
+    background-color: #CFE7FF;
+    transition: 400ms;
+  }
+}
+@media (max-width: 748px) {
+  .wrap {
+    width: 100%;
+    height: 1117px;
+  }
+  .wrap .sec1 {
+    width: 100%;
+    display: flex;
+    height: 1117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .textbox {
+    position: relative;
+    height: 20%;
+    width: 90%;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .wrap .sec1 .textbox h1 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .textbox h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main {
+    width: 70%;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main .img1 {
+    width: 200px;
+  }
+  .wrap .sec1 .tovar .main .textbox2 {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .wrap .sec1 .tovar .main .textbox2 h2 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar .main .textbox2 p {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0071E3;
+  }
+  .wrap .sec1 .pricebox {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .two_buttons {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 {
+    width: 49%;
+    height: 100%;
+    background-color: #0071E3;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 {
+    width: 49%;
+    height: 100%;
+    background-color: #CFE7FF;
+    border-radius: 20px;
+    border: none;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover {
+    background-color: #CFE7FF;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover {
+    background-color: #0071E3;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .main_buttons {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .main_buttons button {
+    width: 97%;
+    height: 23%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #797979;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .wrap .sec1 .pricebox .main_buttons button p {
+    width: 90%;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p3 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p4 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button:hover {
+    width: 100%;
+    height: 25%;
+    background-color: #CFE7FF;
+    transition: 400ms;
+  }
+}
+@media (max-width: 325px) {
+  .wrap {
+    width: 100%;
+    height: 1117px;
+  }
+  .wrap .sec1 {
+    width: 100%;
+    display: flex;
+    height: 1117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .textbox {
+    position: relative;
+    height: 30%;
+    width: 90%;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .wrap .sec1 .textbox h1 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .textbox h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main .img1 {
+    width: 130px;
+  }
+  .wrap .sec1 .tovar .main .textbox2 {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .wrap .sec1 .tovar .main .textbox2 h2 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar .main .textbox2 p {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0071E3;
+  }
+  .wrap .sec1 .pricebox {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .two_buttons {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 {
+    width: 49%;
+    height: 100%;
+    background-color: #0071E3;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 {
+    width: 49%;
+    height: 100%;
+    background-color: #CFE7FF;
+    border-radius: 20px;
+    border: none;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover {
+    background-color: #CFE7FF;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover {
+    background-color: #0071E3;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .main_buttons {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .main_buttons button {
+    width: 97%;
+    height: 23%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #797979;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .wrap .sec1 .pricebox .main_buttons button p {
+    width: 90%;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p3 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p4 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button:hover {
+    width: 100%;
+    height: 25%;
+    background-color: #CFE7FF;
+    transition: 400ms;
+  }
+}
+@media (max-width: 290px) {
+  .wrap {
+    width: 100%;
+    height: 1117px;
+  }
+  .wrap .sec1 {
+    width: 100%;
+    display: flex;
+    height: 1117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .textbox {
+    position: relative;
+    height: 35%;
+    width: 90%;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .wrap .sec1 .textbox h1 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .wrap .sec1 .textbox h2 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .wrap .sec1 .tovar .main .img1 {
+    width: 130px;
+  }
+  .wrap .sec1 .tovar .main .textbox2 {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .wrap .sec1 .tovar .main .textbox2 h2 {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+  .wrap .sec1 .tovar .main .textbox2 p {
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0071E3;
+  }
+  .wrap .sec1 .pricebox {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .two_buttons {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 {
+    width: 49%;
+    height: 100%;
+    background-color: #0071E3;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 {
+    width: 49%;
+    height: 100%;
+    background-color: #CFE7FF;
+    border-radius: 20px;
+    border: none;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover {
+    background-color: #CFE7FF;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover {
+    background-color: #0071E3;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2:hover .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but1 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .wrap .sec1 .pricebox .two_buttons .but2 .p3 {
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #797979;
+  }
+  .wrap .sec1 .pricebox .main_buttons {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrap .sec1 .pricebox .main_buttons button {
+    width: 97%;
+    height: 23%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #797979;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .wrap .sec1 .pricebox .main_buttons button p {
+    width: 90%;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p3 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button .p4 {
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .wrap .sec1 .pricebox .main_buttons button:hover {
+    width: 100%;
+    height: 25%;
+    background-color: #CFE7FF;
+    transition: 400ms;
+  }
+}/*# sourceMappingURL=style.css.map */

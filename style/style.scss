@@ -1,0 +1,1541 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url(../font/Gilroy-Regular.ttf);
+}
+
+$tc1: #000000;
+$tc2: #0071E3;
+$tc3: #CFE7FF;
+$tc4: #ffffff;
+$tc5: #797979;
+
+@mixin text ($ff, $fw, $fs, $lh, $tc) {
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    color: $tc;
+}
+
+
+@media(min-width: 2561px) {
+    .wrap {
+        width: 100%;
+        height: 1440px;
+
+        .sec1 {
+            width: 100%;
+            display: flex;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+
+            .textbox {
+                position: relative;
+                height: 20%;
+                width: 95%;
+                font-family: gilroy;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                text-align: center;
+
+                h1 {
+
+                    @include text(gilroy, 700, 68px, 60px, $tc1)
+                }
+
+                h2 {
+                    @include text(gilroy, 500, 40px, 45px, $tc1)
+                }
+            }
+
+            .tovar {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .main {
+                    width: 45%;
+                    height: 354px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .img1 {
+                        width: 380px;
+
+                    }
+
+                    .textbox2 {
+                        height: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        text-align: left;
+
+                        h2 {
+                            @include text(gilroy, 700, 68px, 60px, $tc1)
+                        }
+
+                        p {
+                            @include text(gilroy, 700, 44px, 30px, $tc2)
+                        }
+                    }
+                }
+            }
+
+            .pricebox {
+                width: 28%;
+                height: 33%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .two_buttons {
+                    width: 100%;
+                    height: 17%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .but1 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc2;
+                        color: $tc4;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                    .but2 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc3;
+                        border-radius: 20px;
+                        border: none;
+                        color: $tc5;
+                    }
+
+                    .but1:hover {
+                        background-color: $tc3;
+                        color: $tc5;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+
+                    .but2:hover {
+                        background-color: $tc2;
+                        color: $tc4;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but1 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but2 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+                }
+
+                .main_buttons {
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 97%;
+                        height: 23%;
+                        display: flex;
+                        background-color: transparent;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 2px solid $tc5;
+                        cursor: pointer;
+                        transition: 400ms;
+
+                        p {
+                            width: 90%;
+                        }
+
+                        .p3 {
+                            @include text(gilroy, 600, 18px, 22px, $tc1 )
+                        }
+
+                        .p4 {
+                            @include text(gilroy, 600, 14px, 17px, $tc1 )
+                        }
+                    }
+
+                    button:hover {
+                        width: 100%;
+                        height: 25%;
+                        background-color: $tc3;
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media(max-width: 2560px) {
+    .wrap {
+        width: 100%;
+        height: 1440px;
+
+        .sec1 {
+            width: 100%;
+            display: flex;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+
+            .textbox {
+                position: relative;
+                height: 25%;
+                width: 95%;
+                font-family: gilroy;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                text-align: center;
+
+                h1 {
+
+                    @include text(gilroy, 700, 58px, 60px, $tc1)
+                }
+
+                h2 {
+                    @include text(gilroy, 500, 30px, 45px, $tc1)
+                }
+            }
+
+            .tovar {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .main {
+                    width: 50%;
+                    height: 354px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .img1 {
+                        width: 380px;
+
+                    }
+
+                    .textbox2 {
+                        height: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        text-align: left;
+
+                        h2 {
+                            @include text(gilroy, 700, 68px, 60px, $tc1)
+                        }
+
+                        p {
+                            @include text(gilroy, 700, 44px, 30px, $tc2)
+                        }
+                    }
+                }
+            }
+
+            .pricebox {
+                width: 28%;
+                height: 33%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .two_buttons {
+                    width: 100%;
+                    height: 17%;
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .but1 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc2;
+                        color: $tc4;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                    .but2 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc3;
+                        border-radius: 20px;
+                        border: none;
+                        color: $tc5;
+                    }
+
+                    .but1:hover {
+                        background-color: $tc3;
+                        color: $tc5;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+
+                    .but2:hover {
+                        background-color: $tc2;
+                        color: $tc4;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but1 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but2 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+
+
+                }
+
+                .main_buttons {
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 97%;
+                        height: 23%;
+                        display: flex;
+                        background-color: transparent;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 2px solid $tc5;
+                        cursor: pointer;
+                        transition: 400ms;
+
+                        p {
+                            width: 90%;
+                        }
+
+                        .p3 {
+                            @include text(gilroy, 600, 18px, 22px, $tc1 )
+                        }
+
+                        .p4 {
+                            @include text(gilroy, 600, 14px, 17px, $tc1 )
+                        }
+                    }
+
+                    button:hover {
+                        width: 100%;
+                        height: 25%;
+                        background-color: $tc3;
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media(max-width: 1660px) {
+    .wrap {
+        width: 100%;
+        height: 1440px;
+
+        .sec1 {
+            width: 100%;
+            display: flex;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+
+            .textbox {
+                position: relative;
+                height: 20%;
+                width: 95%;
+                font-family: gilroy;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                text-align: center;
+
+                h1 {
+
+                    @include text(gilroy, 700, 58px, 60px, $tc1)
+                }
+
+                h2 {
+                    @include text(gilroy, 500, 25px, 45px, $tc1)
+                }
+            }
+
+            .tovar {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .main {
+                    width: 55%;
+                    height: 354px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .img1 {
+                        width: 380px;
+
+                    }
+
+                    .textbox2 {
+                        height: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        text-align: left;
+
+                        h2 {
+                            @include text(gilroy, 700, 68px, 60px, $tc1)
+                        }
+
+                        p {
+                            @include text(gilroy, 700, 44px, 30px, $tc2)
+                        }
+                    }
+                }
+            }
+
+            .pricebox {
+                width: 28%;
+                height: 33%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .two_buttons {
+                    width: 100%;
+                    height: 17%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .but1 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc2;
+                        color: $tc4;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                    .but2 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc3;
+                        border-radius: 20px;
+                        border: none;
+                        color: $tc5;
+                    }
+
+                    .but1:hover {
+                        background-color: $tc3;
+                        color: $tc5;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+
+                    .but2:hover {
+                        background-color: $tc2;
+                        color: $tc4;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but1 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but2 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+                }
+
+                .main_buttons {
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 97%;
+                        height: 23%;
+                        display: flex;
+                        background-color: transparent;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 2px solid $tc5;
+                        cursor: pointer;
+                        transition: 400ms;
+
+                        p {
+                            width: 90%;
+                        }
+
+                        .p3 {
+                            @include text(gilroy, 600, 18px, 22px, $tc1 )
+                        }
+
+                        .p4 {
+                            @include text(gilroy, 600, 14px, 17px, $tc1 )
+                        }
+                    }
+
+                    button:hover {
+                        width: 100%;
+                        height: 25%;
+                        background-color: $tc3;
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media(max-width:1440px) {
+
+
+    .wrap {
+        width: 100%;
+        height: 1117px;
+
+        .sec1 {
+            width: 100%;
+            display: flex;
+            height: 1117px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+
+            .textbox {
+                position: relative;
+                height: 22%;
+                width: 95%;
+                font-family: gilroy;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                text-align: center;
+
+                h1 {
+
+                    @include text(gilroy, 700, 45px, 60px, $tc1)
+                }
+
+                h2 {
+                    @include text(gilroy, 500, 25px, 34px, $tc1)
+                }
+            }
+
+            .tovar {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .main {
+                    width: 55%;
+                    height: 290px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .img1 {
+                        width: 312px;
+
+                    }
+
+                    .textbox2 {
+                        height: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        text-align: left;
+
+                        h2 {
+                            @include text(gilroy, 700, 48px, 60px, $tc1)
+                        }
+
+                        p {
+                            @include text(gilroy, 700, 24px, 30px, $tc2)
+                        }
+                    }
+                }
+            }
+
+            .pricebox {
+                width: 28%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .two_buttons {
+                    width: 100%;
+                    height: 17%;
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .but1 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc2;
+                        color: $tc4;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                    .but2 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc3;
+                        border-radius: 20px;
+                        border: none;
+                        color: $tc5;
+                    }
+
+                    .but1:hover {
+                        background-color: $tc3;
+                        color: $tc5;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+
+                    .but2:hover {
+                        background-color: $tc2;
+                        color: $tc4;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but1 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but2 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+                }
+
+                .main_buttons {
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 97%;
+                        height: 23%;
+                        display: flex;
+                        background-color: transparent;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 2px solid $tc5;
+                        cursor: pointer;
+                        transition: 400ms;
+
+                        p {
+                            width: 90%;
+                        }
+
+                        .p3 {
+                            @include text(gilroy, 600, 18px, 22px, $tc1 )
+                        }
+
+                        .p4 {
+                            @include text(gilroy, 600, 14px, 17px, $tc1 )
+                        }
+                    }
+
+                    button:hover {
+                        width: 100%;
+                        height: 25%;
+                        background-color: $tc3;
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media(max-width:1280px) {
+
+
+    .wrap {
+        width: 100%;
+        height: 1117px;
+
+        .sec1 {
+            width: 100%;
+            display: flex;
+            height: 1117px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+
+            .textbox {
+                position: relative;
+                height: 18%;
+                width: 95%;
+                font-family: gilroy;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                text-align: center;
+
+                h1 {
+
+                    @include text(gilroy, 700, 30px, 60px, $tc1)
+                }
+
+                h2 {
+                    @include text(gilroy, 500, 18px, 26px, $tc1)
+                }
+            }
+
+            .tovar {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .main {
+                    width: 70%;
+                    height: 290px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .img1 {
+                        width: 312px;
+
+                    }
+
+                    .textbox2 {
+                        height: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        text-align: left;
+
+                        h2 {
+                            @include text(gilroy, 700, 35px, 60px, $tc1)
+                        }
+
+                        p {
+                            @include text(gilroy, 700, 22px, 30px, $tc2)
+                        }
+                    }
+                }
+            }
+
+            .pricebox {
+                width: 28%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .two_buttons {
+                    width: 100%;
+                    height: 18%;
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .but1 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc2;
+                        color: $tc4;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                    .but2 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc3;
+                        border-radius: 20px;
+                        border: none;
+                        color: $tc5;
+                    }
+
+                    .but1:hover {
+                        background-color: $tc3;
+                        color: $tc5;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+
+                    .but2:hover {
+                        background-color: $tc2;
+                        color: $tc4;
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but1 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but2 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+                }
+
+                .main_buttons {
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 97%;
+                        height: 23%;
+                        display: flex;
+                        background-color: transparent;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 2px solid $tc5;
+                        cursor: pointer;
+                        transition: 400ms;
+
+                        p {
+                            width: 90%;
+                        }
+
+                        .p3 {
+                            @include text(gilroy, 600, 18px, 22px, $tc1 )
+                        }
+
+                        .p4 {
+                            @include text(gilroy, 600, 14px, 17px, $tc1 )
+                        }
+                    }
+
+                    button:hover {
+                        width: 100%;
+                        height: 25%;
+                        background-color: $tc3;
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media(max-width:748px) {
+
+
+    .wrap {
+        width: 100%;
+        height: 1117px;
+
+        .sec1 {
+            width: 100%;
+            display: flex;
+            height: 1117px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+
+            .textbox {
+                position: relative;
+                height: 20%;
+                width: 90%;
+                font-family: gilroy;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                text-align: center;
+
+                h1 {
+
+                    @include text(gilroy, 700, 25px, 60px, $tc1)
+                }
+
+                h2 {
+                    @include text(gilroy, 500, 14px, 26px, $tc1)
+                }
+            }
+
+            .tovar {
+                width: 100%;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .main {
+                    width: 70%;
+                    height: 390px;
+                    display: flex;
+                    flex-direction: column;
+
+                    align-items: center;
+
+                    .img1 {
+                        width: 200px;
+
+                    }
+
+                    .textbox2 {
+                        height: 35%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        text-align: left;
+
+                        h2 {
+                            @include text(gilroy, 700, 30px, 60px, $tc1)
+                        }
+
+                        p {
+                            @include text(gilroy, 700, 18px, 30px, $tc2)
+                        }
+                    }
+                }
+            }
+
+            .pricebox {
+                width: 70%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .two_buttons {
+                    width: 100%;
+                    height: 18%;
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .but1 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc2;
+                        color: $tc4;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                    .but2 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc3;
+                        border-radius: 20px;
+                        border: none;
+                        color: $tc5;
+                    }
+
+                    .but1:hover {
+                        background-color: $tc3;
+                        color: $tc5;
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+
+                    .but2:hover {
+                        background-color: $tc2;
+                        color: $tc4;
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but1 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but2 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+                }
+
+                .main_buttons {
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 97%;
+                        height: 23%;
+                        display: flex;
+                        background-color: transparent;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 1px solid $tc5;
+                        cursor: pointer;
+                        transition: 400ms;
+
+                        p {
+                            width: 90%;
+                        }
+
+                        .p3 {
+                            @include text(gilroy, 600, 12px, 22px, $tc1 )
+                        }
+
+                        .p4 {
+                            @include text(gilroy, 600, 12px, 17px, $tc1 )
+                        }
+                    }
+
+                    button:hover {
+                        width: 100%;
+                        height: 25%;
+                        background-color: $tc3;
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media(max-width:325px) {
+
+
+    .wrap {
+        width: 100%;
+        height: 1117px;
+
+        .sec1 {
+            width: 100%;
+            display: flex;
+            height: 1117px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+
+            .textbox {
+                position: relative;
+                height: 30%;
+                width: 90%;
+                font-family: gilroy;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                text-align: center;
+
+                h1 {
+
+                    @include text(gilroy, 700, 14px, 60px, $tc1)
+                }
+
+                h2 {
+                    @include text(gilroy, 500, 12px, 26px, $tc1)
+                }
+            }
+
+            .tovar {
+                width: 100%;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .main {
+                    width: 70%;
+                    height: 300px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    .img1 {
+                        width: 130px;
+
+                    }
+
+                    .textbox2 {
+                        height: 35%;
+                        display: flex;
+                        flex-direction: column;
+
+
+                        text-align: left;
+
+                        h2 {
+                            @include text(gilroy, 700, 20px, 30px, $tc1)
+                        }
+
+                        p {
+                            @include text(gilroy, 700, 14px, 30px, $tc2)
+                        }
+                    }
+                }
+            }
+
+            .pricebox {
+                width: 70%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .two_buttons {
+                    width: 100%;
+                    height: 18%;
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .but1 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc2;
+                        color: $tc4;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                    .but2 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc3;
+                        border-radius: 20px;
+                        border: none;
+                        color: $tc5;
+                    }
+
+                    .but1:hover {
+                        background-color: $tc3;
+                        color: $tc5;
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+
+                    .but2:hover {
+                        background-color: $tc2;
+                        color: $tc4;
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but1 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but2 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 18px, 23px, $tc5 )
+                        }
+                    }
+                }
+
+                .main_buttons {
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 97%;
+                        height: 23%;
+                        display: flex;
+                        background-color: transparent;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 1px solid $tc5;
+                        cursor: pointer;
+                        transition: 400ms;
+
+                        p {
+                            width: 90%;
+                        }
+
+                        .p3 {
+                            @include text(gilroy, 600, 12px, 22px, $tc1 )
+                        }
+
+                        .p4 {
+                            @include text(gilroy, 600, 12px, 17px, $tc1 )
+                        }
+                    }
+
+                    button:hover {
+                        width: 100%;
+                        height: 25%;
+                        background-color: $tc3;
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media(max-width:290px) {
+
+
+    .wrap {
+        width: 100%;
+        height: 1117px;
+
+        .sec1 {
+            width: 100%;
+            display: flex;
+            height: 1117px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+
+            .textbox {
+                position: relative;
+                height: 35%;
+                width: 90%;
+                font-family: gilroy;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                text-align: center;
+
+                h1 {
+
+                    @include text(gilroy, 700, 14px, 60px, $tc1)
+                }
+
+                h2 {
+                    @include text(gilroy, 500, 12px, 26px, $tc1)
+                }
+            }
+
+            .tovar {
+                width: 100%;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .main {
+                    width: 70%;
+                    height: 300px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    .img1 {
+                        width: 130px;
+
+                    }
+
+                    .textbox2 {
+                        height: 35%;
+                        display: flex;
+                        flex-direction: column;
+
+
+                        text-align: left;
+
+                        h2 {
+                            @include text(gilroy, 700, 20px, 30px, $tc1)
+                        }
+
+                        p {
+                            @include text(gilroy, 700, 14px, 30px, $tc2)
+                        }
+                    }
+                }
+            }
+
+            .pricebox {
+                width: 70%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .two_buttons {
+                    width: 100%;
+                    height: 18%;
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .but1 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc2;
+                        color: $tc4;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                    .but2 {
+                        width: 49%;
+                        height: 100%;
+                        background-color: $tc3;
+                        border-radius: 20px;
+                        border: none;
+                        color: $tc5;
+                    }
+
+                    .but1:hover {
+                        background-color: $tc3;
+                        color: $tc5;
+                        .p3 {
+                            @include text(gilroy, 500, 14px, 23px, $tc5 )
+                        }
+                    }
+
+                    .but2:hover {
+                        background-color: $tc2;
+                        color: $tc4;
+                        .p3 {
+                            @include text(gilroy, 500, 14px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but1 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 14px, 23px, $tc4 )
+                        }
+                    }
+
+                    .but2 {
+
+                        .p3 {
+                            @include text(gilroy, 500, 14px, 23px, $tc5 )
+                        }
+                    }
+                }
+
+                .main_buttons {
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        width: 97%;
+                        height: 23%;
+                        display: flex;
+                        background-color: transparent;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 1px solid $tc5;
+                        cursor: pointer;
+                        transition: 400ms;
+
+                        p {
+                            width: 90%;
+                        }
+
+                        .p3 {
+                            @include text(gilroy, 600, 12px, 22px, $tc1 )
+                        }
+
+                        .p4 {
+                            @include text(gilroy, 600, 12px, 17px, $tc1 )
+                        }
+                    }
+
+                    button:hover {
+                        width: 100%;
+                        height: 25%;
+                        background-color: $tc3;
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+    }
+}
